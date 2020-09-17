@@ -1,0 +1,28 @@
+state={
+	id=798
+	name="STATE_798"
+	manpower=126933
+	resources={
+		steel=12.000
+		aluminium=8.000
+		chromium=2.000
+		tungsten=1.000
+	}
+	
+	state_category = town
+
+	history = {
+	    owner = SPI
+	    add_core_of = SPI
+	    buildings = {
+	         infrastructure = 5
+	         arms_factory = 2
+	         industrial_complex = 2
+	    }
+	}
+	provinces={
+		611 3782 11570 
+	}
+	
+	buildings_max_level_factor=1.000
+}

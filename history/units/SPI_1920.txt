@@ -1,0 +1,96 @@
+﻿division_template = {
+	name = "Italian Army Remnants"
+	division_names_group = ITA_INF_01 
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Garissons"  
+	division_names_group = ITA_INF_01 
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	##### Ejército de Cuba #####
+	division= {	# "Italian Army Remnants"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6973 
+		division_template = "Italian Army Remnants"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "Italian Army Remnants'"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6788 
+		division_template = "Italian Army Remnants" 
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+
+	}
+    division= {	# "Italian Army Remnants'"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3772
+		division_template = "Italian Army Remnants" 
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+
+	}
+	division= {	# "Italian Army Remnants'"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11891
+		division_template = "Italian Army Remnants" 
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+
+	}
+	division= {	# "Italian Army Remnants'"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11773
+		division_template = "Italian Army Remnants" 
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+
+	}
+	##### No Notable Naval Forces #####
+}
+
+##### No Notable Air Forces #####
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SPI"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+}

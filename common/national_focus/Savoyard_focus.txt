@@ -1,0 +1,57 @@
+﻿focus_tree = {
+	id = Savoyard_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SPI	
+		}	
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+
+
+	focus = {
+		id = recovery_from_the_great_collapse
+
+		icon = GFX_goal_recovery_from_the_great_collapse
+		x = 1
+		y = 0
+		#relative_position_id = recovery_from_the_collapse
+        search_filters = { FOCUS_FILTER_INDUSTRY  }
+		prerequisite = {  }
+
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+    
+    

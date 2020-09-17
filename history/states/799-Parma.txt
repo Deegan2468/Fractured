@@ -1,0 +1,26 @@
+state={
+	id=799
+	name="STATE_799"
+	manpower = 197132
+	 resources={
+		aluminium=9.000
+	}
+
+	state_category = city
+
+	history = {
+	    owner = PRM
+	    add_core_of = PRM
+	    buildings = {
+	         infrastructure = 7
+	         arms_factory = 2
+	         industrial_complex = 2
+	    }
+	}
+
+	provinces={
+		3773 6790 
+	}
+	
+	buildings_max_level_factor=1.000
+}

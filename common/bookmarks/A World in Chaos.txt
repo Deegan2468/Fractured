@@ -1,0 +1,51 @@
+bookmarks = {
+	bookmark = {
+		name = "A World in Chaos"
+		DESC = "The World has collapsed after the Great War, due to stagnation in the war, the world exploded and it's your job to rebuild"
+		date = 1920.1.11.12
+		picture = "a_world_in_chaos_bookmark"
+		default_country = "SPI"
+		default = yes
+		
+		
+		"SPI"{
+		    history = "The Kingdom of Sardinia Peidmont was the nation that united Italy under the original Risorgimento and it can do it again!"
+		    ideology = neutrality
+		}
+
+		"PRM"{
+		    history = "placeholder"
+		    ideology = neutrality
+		}
+
+		"MOD"{
+		    history = "placeholder"
+		    ideology = neutrality
+		}
+
+		"VLN"{
+		    history = "Archduke Charles 1 has been exiled from his rightful lands and has grand ambitions or reuniting the empire!"
+		    ideology = neutrality
+		}
+           
+        "TUS"{
+            history = "placeholder"
+            ideology = neutrality
+        }
+
+        "PPS"{
+           history = "The newly born Papal States can go anywhere they want, it all depends on just what pope is elected"
+           ideology = neutrality
+        }
+
+        "SIC"{
+            history = "placeholder"
+            ideology = neutrality
+        }
+		"---"={
+			history = "OTHER_ACB_DESC_LOC"
+		}
+
+
+		# minors from DLC ####
+		
