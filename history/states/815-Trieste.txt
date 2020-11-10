@@ -1,0 +1,23 @@
+state={
+	id=815
+	name="STATE_815"
+	manpower = 418000 
+
+	state_category = large_city
+
+	history = {
+	    owner = ITA
+	    add_core_of = ITA
+	    add_core_of = AUS
+	    buildings = {
+	         infrastructure = 8
+	         arms_factory = 4
+	         industrial_complex = 2
+	    }
+	}
+	provinces={
+		6626 
+	}
+	
+	buildings_max_level_factor=1.000
+}
