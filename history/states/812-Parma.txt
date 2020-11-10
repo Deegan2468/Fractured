@@ -1,0 +1,25 @@
+state={
+	id=812
+	name="STATE_812"
+	manpower = 197132
+	 resources={
+		aluminium=9.000
+	}
+
+	state_category = city
+
+	history = {
+	    owner = ITA
+	    add_core_of = ITA
+	    buildings = {
+	         infrastructure = 7
+	         arms_factory = 2
+	         industrial_complex = 2
+	    }
+	}
+	provinces={
+		3773 6790 
+	}
+
+	buildings_max_level_factor=1.000
+}
