@@ -1,0 +1,29 @@
+state={
+	id=807
+	name="STATE_807"
+	resources={
+		steel=23.000
+		aluminium=12.000
+		chromium=2.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		3772 6788 11891 
+	}
+	manpower=1557533
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}
